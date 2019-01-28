@@ -228,6 +228,7 @@ public class AddressBook {
 
     private static void showWelcomeMessage() {
         showToUser(DIVIDER, DIVIDER, VERSION, MESSAGE_WELCOME, DIVIDER);
+        System.out.println("Hello nice to meet you!");
     }
 
     private static void showResultToUser(String result) {
